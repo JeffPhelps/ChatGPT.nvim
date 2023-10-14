@@ -52,7 +52,8 @@ M.complete = function()
   set_loading(true)
 
   Api.completions({
-    model = "text-davinci-003",
+    -- model = "text-davinci-003",
+    model = "gpt-4",
     prompt = prefix,
     suffix = suffix,
     max_tokens = 2048,

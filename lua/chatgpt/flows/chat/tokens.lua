@@ -7,6 +7,7 @@ local Tokens = {}
 ]]
 local cost_per_token = {
   davinci = 0.000002,
+  gpt-4 = 0.03,
 }
 
 --- Calculate the number of tokens in a given text.
